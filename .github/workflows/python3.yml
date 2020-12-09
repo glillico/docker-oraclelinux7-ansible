@@ -1,10 +1,10 @@
 ---
-name: latest
+name: python3
 on:
   pull_request:
   push:
     branches:
-      - master
+      - python3
   schedule:
     - cron: '35 3 * * 0'
 
